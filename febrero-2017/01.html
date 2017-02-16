@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title> Enlaces e Imágenes en HTML </title>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Cinzel|Exo+2|Fjalla+One|Muli|Nunito+Sans|Open+Sans+Condensed:300|Ubuntu+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://josueso.github.io/estilos/estilo_entradas.css">
+</head>
+<body>
+    <div id="pagina">
+        <header>
+            <h1 id="Titulo"> <a href="https://josueso.github.io/"> Tecnologías Web </a> </h1>
+        </header>
+        <div id="header">
+            <ul class="nav">
+                <li> <a href="https://josueso.github.io/"> Inicio </a> </li>
+                <li> <a href=""> Cagorías </a> 
+                    <ul>
+                        <li> <a href=""> HTML </a> </li>
+                        <li> <a href=""> CSS </a> </li>
+                    </ul>
+                </li>
+                <li> <a href=""> Información </a> </li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <br>
+        <section id="arti">
+            <h4 id="NameA"> Enlaces e Imágenes en HTML </h4>
+            <p class="fecha">
+                Fecha: <i> 1 de Febrero de 2017 </i>
+            </p>
+            <h3 class="subtittle"> Enlaces </h3>
+            <p>
+                Probablemente la característica que más ha influido, junto con las imágenes, en el espectacular desarrollo de la Web hayan sido los enlaces (links). Un enlace aparece generalmente como un texto azul subrayado y cuando situamos el cursor sobre él se transforma en una mano con el dedo índice extendido. Si pulsamos sobre el enlace saltamos a otra parte del documento, a otro documento situado en cualquier lugar, o incluso se abre el programa de correo para enviar un mensaje a la dirección indicada.
+            </p>
+            <p>
+                Un enlace lo definimos por la siguiente etiqueta:
+            </p>
+            <div class="ttc">
+                    <span class="code"> &#60;a href="url_del_enlace" target="" &#62; Texto del enlace &#60;/a&#62; </span>
+            </div>
+            <p>
+                El atributo targer sirve para indicar el comportamiento del enlace:
+            </p>
+            <p>
+                <ul>
+                    <li><span class="code">_blank </span> es para indicar que el enlace se abrirá en otra pestaña o ventana</li>
+                    <li><span class="code">_self </span> es para indicar que el enlace se abrirá en la misma pestaña</li>
+                </ul>
+            </p>
+            <p>
+                Ejemplo:
+            </p>
+            <div class="ttc">
+                <span class="code">&#60;a href="http://www.google.com" target="_blank" &#62; Google &#60;/a&#62;</span> &rarr; <a href="http://www.google.com" target="_blank"> Google </a>
+            </div>
+            <h3 class="subtittle"> Imágenes </h3>
+            <p>
+                Al momento de diseñar una página muchas veces es necesario adjuntar una imagen, ya sea para usarla como logotipo de la página, como parte del diseño, o para ejemplificar algo. Para añadir una imagen utilizamos la siguiente etiqueta:
+            </p>
+            <div class="ttc">
+                    <span class="code"> &#60;img src="url/nombre_imagen" height="alto" width="ancho" alt"texto aleternativo "&#62; </span>
+            </div>
+            <p>
+                Ejemplo:
+            </p>
+            <div class="ttc">
+                <span class="code">&#60;img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="Logo HTML5" width="100px" &#62;</span> &rarr; <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="Logo HTML5" width="100px">
+            </div>
+        </section>
+        <footer>
+            Josué Sánchez Olvera 2017
+            <img src="https://josueso.github.io/imagenes/html.png" alt="HTML5" width="26px">
+            <img src="https://josueso.github.io/imagenes/css.jpeg" alt="CSS3" width="20px">
+        </footer>
+    </div>
+</body>
+</html>

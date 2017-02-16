@@ -1,0 +1,43 @@
+#entradas {
+    display: block;
+    border-style: double;
+    border-width: 6px 0px 0px 5px;
+    border-color: cadetblue;
+    margin: 30px;
+    padding: 10px;
+/*    position: relative;
+    top: 120px; */
+}
+
+article {
+    margin: 10px 10px 0px;
+    padding: 10px 20px 0px;
+    border-style: solid;
+    border-width: 0px 0px 1px;
+    border-color: lightseagreen;
+    display: block;
+}
+
+h4 {
+    margin: 0px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 30px;
+}
+
+h4 a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.fecha {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.description {
+    text-align: justify;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.category {
+    font-family: 'Chathura', sans-serif;
+}

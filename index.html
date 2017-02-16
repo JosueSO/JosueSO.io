@@ -2,28 +2,115 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Pagina Personal</title>
+    <title> Tecnologías Web</title>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Chathura|Cinzel|Exo+2|Fjalla+One|Muli|Nunito+Sans|Open+Sans+Condensed:300|Ubuntu+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://josueso.github.io/estilos/estilo_index.css">
+    <link rel="stylesheet" href="https://josueso.github.io/estilos/estilo_base.css">
 </head>
 <body>
-    <!-- Tarea:
-    Crear un menú de los ejemplos hechos en clase.
-    Usando una lista de enlaces a las páginas creadas. 
-    En cada página agregar un enlace que regresa al índice.
-    -->
-    <header>
-        <h1> HTML </h1> 
-    </header>
-    
-    <main>
-        <p><h4> Ejemplos de elementos en HTML </h4></p>
-        <ul>
-            <li><a href="https://josueso.github.io/enlaces.html"> Enlaces </a></li>
-            <li><a href="https://josueso.github.io/estructura.html"> Estructura </a></li>
-            <li><a href="https://josueso.github.io/imagenes.html"> Imágenes </a></li>
-            <li><a href="https://josueso.github.io/listas.html"> Listas </a></li>
-            <li><a href="https://josueso.github.io/parrafos.html"> Parrafos </a></li>
-            <li><a href="https://josueso.github.io/tablas.html"> Tablas </a></li>
-        </ul>
-    </main>
+    <div id="pagina">
+        <div id="menu">
+            <header>
+                <h1 id="Titulo"> <a href="https://josueso.github.io/"> Tecnologías Web </a> </h1>
+            </header>
+            <div id="header">
+                <ul class="nav">
+                    <li> <a href="https://josueso.github.io/"> Inicio </a> </li>
+                    <li> <a href=""> Cagorías </a> 
+                        <ul>
+                            <li> <a href=""> HTML </a> </li>
+                            <li> <a href=""> CSS </a> </li>
+                        </ul>
+                    </li>
+                    <li> <a href=""> Información </a> </li>
+                </ul>
+            </div>
+        </div>
+        <div id="white_space"></div>
+        <br>
+        <br>
+        <br>
+        <section id="entradas">
+            <!-- Base de un artículo
+            <article>
+                <h4> <a href=""> Título del artículo </a> </h4> 
+                <p class="fecha">
+                    Fecha: <i> Fecha </i>
+                </p>
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet similique vitae pariatur quos, quasi commodi sunt deleniti aperiam totam nihil accusamus nesciunt aliquam esse obcaecati iure nemo quas ab quam?
+                </p>
+                <p class="category">
+                    Categoría: <a href=""> Cat1 </a> | <a href=""> Cat2 </a>
+                </p>
+            </article>
+            -->
+            <article>
+                <h4> <a href="https://josueso.github.io/febrero-2017/01.2.html"> Listas en HTML </a> </h4> 
+                <p class="fecha">
+                    Fecha: <i> 1 de Febrero de 2017 </i>
+                </p>
+                <p class="description">
+                    Hay ocaciones que necesitamos listar una serie de elementos y para ello utilizamos listas. Existen tres tipos de listas en HTML y aqui te mostramos las etiquetas necesarias para crearlas.
+                </p>
+                <p class="category">
+                    Categoría: <a href=""> HTML </a>
+                </p>
+            </article>
+            <article>
+                <h4> <a href="https://josueso.github.io/febrero-2017/01.html"> Enlaces e Imágenes en HTML </a> </h4> 
+                <p class="fecha">
+                    Fecha: <i> 1 de Febrero 2017 </i>
+                </p>
+                <p class="description">
+                    Existen elementos externos que podemos añadir a nuestro documento HTML. Tal es el caso de las imágenes, y para ello es necesario crear un enlace a la dirección donde se encuentra el archivo que queremos utilizar. Además de esto podemos crear un enlace para ir a otro sitio web.
+                </p>
+                <p class="category">
+                    Categoría: <a href=""> HTML </a>
+                </p>
+            </article>
+            <article>
+                <h4> <a href="https://josueso.github.io/enero-2017/31.html"> Estructura semántica de un documento HTML </a> </h4> 
+                <p class="fecha">
+                    Fecha: <i> 31 de Enero de 2017 </i>
+                </p>
+                <p class="description">
+                    Un documento HTML, al igual que cualquier otro documento, necesita tener una estructura definida para poder entender todo el contenido del mismo. Aqui te mostramos la estructura básica de un documento HTML.
+                </p>
+                <p class="category">
+                    Categoría: <a href=""> HTML </a>
+                </p>
+            </article>
+            <article>
+                <h4> <a href="https://josueso.github.io/enero-2017/30.html"> Texto en HTML </a> </h4> 
+                <p class="fecha">
+                    Fecha: <i> 30 de Enero de 2017 </i>
+                </p>
+                <p class="description">
+                    Un texto en un documento de HTML puede tener varias etiquetas dependiendo el formato que se requiera darle, aqui veremos las más significativas.
+                </p>
+                <p class="category">
+                    Categoría: <a href=""> HTML </a>
+                </p>
+            </article>
+            <article>
+                <h4> <a href="https://josueso.github.io/enero-2017/27.html"> HTML </a> </h4> 
+                <p class="fecha">
+                    Fecha: <i> 27 de Enero de 2017 </i>
+                </p>
+                <p class="description">
+                    Introducción al HTML, definición y descripción de su contenido.
+                </p>
+                <p class="category">
+                    Categoría: <a href=""> HTML </a>
+                </p>
+            </article>
+        </section>
+        <footer>
+            Josué Sánchez Olvera 2017
+            <img src="https://josueso.github.io/imagenes/html.png" alt="HTML5" width="26px">
+            <img src="https://josueso.github.io/imagenes/css.jpeg" alt="CSS3" width="20px">
+        </footer>
+    </div>
 </body>
 </html>

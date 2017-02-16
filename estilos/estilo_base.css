@@ -1,0 +1,98 @@
+body {
+/*    background-image: url("fondo.jpg"); */
+    overflow: auto;
+    background-color: lightskyblue;
+}
+/*
+#menu {
+    position: fixed;
+    background-color: white;
+    z-index: 1000;
+    padding: 0px 0px 20px;
+    display: block;
+    width: max-content;
+}
+
+#white_space {
+    height: 160px;
+    background-color: white;
+    position: fixed;
+}*/
+
+#pagina {
+    margin: 10px;
+    background-color: white;
+}
+
+#Titulo {
+    font-family: 'Fjalla One', sans-serif;
+    margin: 20px 30px 10px;
+    font-size: 50px;
+/*    background-image: url("banner.jpg"); */
+    padding: 10px;
+    min-width: 680px;
+    border-style: solid;
+    border-color: darkblue;
+    border-width: 0px 0px 3px 0px;
+}
+
+#Titulo a {
+    text-decoration: none;
+    color: rgb(0, 77, 108);
+}
+
+#header {
+    font-family: 'Muli', sans-serif;
+    width: a;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header ul {
+    list-style: none;
+}
+
+.nav {
+    padding: 0px 30px;
+    background-color: rgb(0, 149, 209);
+}
+.nav li a {
+    background-color: rgb(0, 149, 209);
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 15px;
+    width: 200px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    font-weight: bold;
+}
+
+.nav li a:hover {
+    background-color: rgb(0, 77, 108);
+}
+.nav > li {
+    float: left;
+}
+
+.nav li ul {
+    padding: 0px;
+    display: none;
+    position: absolute;
+    min-width: 100px;
+}
+
+.nav li:hover > ul {
+    display: block;
+}
+
+footer {
+    margin: 10px 30px;
+    padding: 10px 0px 20px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    border-width: 2px 0px 0px;
+    border-style: solid;
+    border-color: mediumseagreen;
+}

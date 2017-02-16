@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title> Listas en HTML </title>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Cinzel|Exo+2|Fjalla+One|Muli|Nunito+Sans|Open+Sans+Condensed:300|Ubuntu+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://josueso.github.io/estilos/estilo_entradas.css">
+</head>
+<body>
+    <div id="pagina">
+        <header>
+            <h1 id="Titulo"> <a href="https://josueso.github.io/"> Tecnologías Web </a> </h1>
+        </header>
+        <div id="header">
+            <ul class="nav">
+                <li> <a href="https://josueso.github.io/"> Inicio </a> </li>
+                <li> <a href=""> Cagorías </a> 
+                    <ul>
+                        <li> <a href=""> HTML </a> </li>
+                        <li> <a href=""> CSS </a> </li>
+                    </ul>
+                </li>
+                <li> <a href=""> Información </a> </li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <br>
+        <section id="arti">
+            <h4 id="NameA"> Listas en HTML </h4>
+            <p class="fecha">
+                Fecha: <i> 1 de Febrero de 2017 </i>
+            </p>
+            <p>
+                Las listas representan uno de los instrumentos más difundidos para organizar la información dentro de los sitios web. Una de sus características principales es la de proporcionar un cuadro claro y sintético del tema tratado.
+            </p>
+            <h3 class="subtittle"> Listas ordenadas </h3>
+            <p>
+                Este tipo de listas son utilizadas cuando queremos ordenar el contenido de una lista. Un ejemplo de esto es el indice de un libro:
+            </p>
+            <p>
+                <span class="code">
+                    &#60;ol&#62;
+                    <br>&nbsp;&nbsp;&#60;li&#62;Capítulo 1&#60;/li&#62;
+                    <br>&nbsp;&nbsp;&#60;li&#62;Capítulo 2&#60;/li&#62;
+                    <br>&nbsp;&nbsp;&#60;li&#62;Capítulo 3&#60;/li&#62;
+                    <br>&#60;/ol&#62;
+                </span>
+            </p>
+            <div id="ejp">
+                <ol>
+                    <li>Capítulo 1</li>
+                    <li>Capítulo 2</li>
+                    <li>Capítulo 3</li>
+                </ol>
+            </div>
+            <h3 class="subtittle"> Listas no ordenadas</h3>
+            <p>
+                Este tipo de listas son utilizadas cuando listamos elementos en el que el orden no importa. Por ejemplo una lista de colores:
+            </p>
+            <p>
+                <span class="code">
+                    &#60;ul&#62;
+                    <br>&nbsp;&nbsp;&#60;li&#62;Rojo&#60;/li&#62;
+                    <br>&nbsp;&nbsp;&#60;li&#62;Azul&#60;/li&#62;
+                    <br>&nbsp;&nbsp;&#60;li&#62;Verde&#60;/li&#62;
+                    <br>&#60;/ul&#62;
+                </span>
+            </p>
+            <div id="ejp">
+                <ul>
+                    <li>Rojo</li>
+                    <li>Azul</li>
+                    <li>Verde</li>
+                </ul>
+            </div>
+            <h3 class="subtittle"> Listas de descripción </h3>
+            <p>
+                Este tipo de listas son utilizadas cuando queremos listar elementos y agregar una descripción del mismo. Por ejemplo:
+            </p>
+            <p>
+                <span class="code">
+                    &#60;dl&#62;
+                    <br>&nbsp;&nbsp;&#60;dt&#62;HTML&#60;/dt&#62;
+                    <br>&nbsp;&nbsp;&#60;dd&#62;Lenguaje para especificar el contenido de una página Web&#60;/dd&#62;
+                    <br>&nbsp;&nbsp;&#60;dt&#62;CSS&#60;/dt&#62;
+                    <br>&nbsp;&nbsp;&#60;dd&#62;Lenguaje para especificar la apariencia de una página Web&#60;/dd&#62;
+                    <br>&nbsp;&nbsp;&#60;dt&#62;JavaScript&#60;/dt&#62;
+                    <br>&nbsp;&nbsp;&#60;dd&#62;Lenguaje para especificar comportamiento&#60;/dd&#62;
+                    <br>&#60;/ol&#62;
+                </span>
+            </p>
+            <div>
+                <dl>
+                    <dt>HTML</dt>
+                    <dd>Lenguaje para especificar el contenido de una página Web</dd>
+                    <dt>CSS</dt>
+                    <dd>Lenguaje para especificar la apariencia de una página Web</dd>
+                    <dt>JavaScript</dt>
+                    <dd>Lenguaje para especificar comportamiento</dd>
+                </dl>
+            </div>
+        </section>
+        <footer>
+            Josué Sánchez Olvera 2017
+            <img src="https://josueso.github.io/imagenes/html.png" alt="HTML5" width="26px">
+            <img src="https://josueso.github.io/imagenes/css.jpeg" alt="CSS3" width="20px">
+        </footer>
+    </div>
+</body>
+</html>
