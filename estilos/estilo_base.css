@@ -41,6 +41,10 @@ body {
     color: rgb(0, 77, 108);
 }
 
+#Logo {
+    margin: 0px;
+}
+
 #header {
     font-family: 'Muli', sans-serif;
     width: a;
