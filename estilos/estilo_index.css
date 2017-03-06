@@ -29,6 +29,12 @@ h4 a {
     color: dodgerblue;
 }
 
+h2 {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    color: rgb(0, 77, 108);
+}
+
 .fecha {
     font-family: 'Open Sans Condensed', sans-serif;
 }
