@@ -29,8 +29,9 @@ h4 a {
     color: dodgerblue;
 }
 
-h2 {
+#x {
     font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
     text-align: center;
     color: rgb(0, 77, 108);
 }
