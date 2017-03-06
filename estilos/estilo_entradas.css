@@ -124,7 +124,7 @@ footer {
     list-style: lower-latin;
 }
 
-#ejp {
+.ejp {
     width: 200px;
     position: relative;
     top: -105px;
