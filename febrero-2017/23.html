@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Arreglos JavaScript </title>
+    <link href="https://fonts.googleapis.com/css?family=Advent+Pro%7CBree+Serif%7CChathura%7CCinzel%7CExo+2%7CFjalla+One%7CMuli%7CNunito+Sans%7COpen+Sans+Condensed:300%7CUbuntu+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://josueso.github.io/estilos/estilo_entradas.css">
+    <style>
+        dt{font-weight: bold;}
+    </style>
+</head>
+<body>
+    <div id="pagina">
+        <header>
+            <!--<h1 id="Titulo"> <a href="https://josueso.github.io/"> Tecnologías Web </a> </h1>-->
+            <a href="https://josueso.github.io/"> <img src="https://josueso.github.io/imagenes/TecWeb.png" alt="Logo" id="Logo"> </a>
+        </header>
+        <div id="header">
+            <ul class="nav">
+                <li> <a href="https://josueso.github.io/"> Inicio </a> </li>
+                <li> <a href=""> Cagorías </a> 
+                    <ul>
+                        <li> <a href=""> HTML </a> </li>
+                        <li> <a href=""> CSS </a> </li>
+                    </ul>
+                </li>
+                <li> <a href=""> Información </a> </li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <br>
+        <section id="arti">
+            <h4 id="NameA"> Arreglos JavaSript </h4>
+            <p class="fecha">
+                Fecha: <i> 23 de Febrero de 2017 </i>
+            </p>
+            <p>
+                Al igual que en la mayor parte de los lenguajes de programación, en JavaScript podemos trabajar con arrays (también llamados arreglos, vectores o matrices). Los arrays son de gran importancia ya que permiten organizar series de datos que comparten el mismo nombre pero se diferencian por un índice.
+            </p>
+            <p>
+                Para inicializar un arreglo, podemos hacerlo de tal manera que esté vacío para despues agregar datos, o poniendo los datos del arreglo desde un inicio:
+                <span class="code"> 
+                <br>var nuevoArreglo = new Array();
+                <br>var nuevoArreglo = ['Dato1', 'Dato2', numero1, numero2];
+                </span>
+            </p>
+            <p>
+                El acceso a los datos del arreglo se hace por medio de un índice. Cabe mencionar que los datos inician desde la posición 0. Si tenemos el siguiente arreglo:
+                <span class="code"> 
+                <br>var materias = ['Cálculo', 'Álgebra', 'Química', 'Física', 'Matemáticas', 'Geometría', 'Inglés'];
+                </span>
+                <br>El valor de materias[0] sería Cálculo, materias[3] sería Física y materias[6] sería Inglés
+            </p>
+            <h3 class="subtittle"> Funciones de arreglos </h3>
+            <dl>
+                <dt>.concat(e1,e2,...,eN)</dt>
+                <dd>Devuelve la concatenación de e1, e2, …, eN con el array sobre el que se invoca.</dd>
+                <dt>.join('separador')</dt>
+                <dd>Une los elementos de un array en una cadena de texto donde cada elemento está separado por ‘separador’.</dd>
+                <dt>.push(x)</dt>
+                <dd>Añade x al final del array como nuevo (o nuevos) elemento, y devuelve la nueva longitud del array.</dd>
+                <dt>.pop(x)</dt>
+                <dd>Elimina el último elemento del array y lo devuelve.</dd>
+                <dt>.reverse()</dt>
+                <dd>Invierte el orden de los elementos en el array (el final pasa a ser el principio).</dd>
+                <dt>.sort()</dt>
+                <dd>Si no recibe parámetros, ordena los elementos del array por orden alfabético (que no coincide con el numérico), quedando el array modificado.</dd>
+                <dt>.shift()</dt>
+                <dd>Elimina el primer elemento del array y lo devuelve.</dd>
+                <dt>.unshift(x)</dt>
+                <dd>Añade x al principio del array como nuevo (o nuevos) elementos.</dd>
+                <dt>.splice(ind,f,x)</dt>
+                <dd>Modifica el array añadiendo(f=0) o eliminando(f=1) el elemento x en la posición ind (desplazando a los existentes).</dd>
+                <dt>.slice(firstIn,lastOut</dt>
+                <dd>Devuelve un array con los elementos extraídos entre los índices firstIn y lastOut-1.</dd>
+                <dt>.indexOf(x)</dt>
+                <dd>Busca x dentro del array y devuelve la posición de la primera ocurrencia.</dd>
+            </dl>
+        </section>
+        <footer>
+            Josué Sánchez Olvera 2017
+            <img src="https://josueso.github.io/imagenes/html.png" alt="HTML5" width="26">
+            <img src="https://josueso.github.io/imagenes/css.jpeg" alt="CSS3" width="20">
+        </footer>
+    </div>
+</body>
+</html>

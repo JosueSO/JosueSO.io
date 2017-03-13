@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Funciones JavaScript </title>
+    <link href="https://fonts.googleapis.com/css?family=Advent+Pro%7CBree+Serif%7CChathura%7CCinzel%7CExo+2%7CFjalla+One%7CMuli%7CNunito+Sans%7COpen+Sans+Condensed:300%7CUbuntu+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://josueso.github.io/estilos/estilo_entradas.css">
+    <style>
+        dt{font-weight: bold;}
+    </style>
+</head>
+<body>
+    <div id="pagina">
+        <header>
+            <!--<h1 id="Titulo"> <a href="https://josueso.github.io/"> Tecnologías Web </a> </h1>-->
+            <a href="https://josueso.github.io/"> <img src="https://josueso.github.io/imagenes/TecWeb.png" alt="Logo" id="Logo"> </a>
+        </header>
+        <div id="header">
+            <ul class="nav">
+                <li> <a href="https://josueso.github.io/"> Inicio </a> </li>
+                <li> <a href=""> Cagorías </a> 
+                    <ul>
+                        <li> <a href=""> HTML </a> </li>
+                        <li> <a href=""> CSS </a> </li>
+                    </ul>
+                </li>
+                <li> <a href=""> Información </a> </li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <br>
+        <section id="arti">
+            <h4 id="NameA"> Funciones JavaSript </h4>
+            <p class="fecha">
+                Fecha: <i> 23 de Febrero de 2017 </i>
+            </p>
+            <p>
+                Las funciones son uno de los pilares fundamentales en JavaScript. Una función es un procedimiento JavaScript: un conjunto de sentencias que realizan una tarea o calculan un valor. Para usar una función, debe definirla en algún lugar del ámbito desde el cual desea llamarla.
+            </p>
+            <p>
+                Existen dos formas de crear una función:
+            </p>
+            <ol>
+                <li>
+                    Declaración
+                    <br> <img src="https://josueso.github.io/imagenes/23.1.01.png" alt="Declaración">
+                </li>
+                <li>
+                    Expresión
+                    <br> <img src="https://josueso.github.io/imagenes/23.1.02.png" alt="Expresión">
+                </li>
+            </ol>
+            <p>
+                Hay ocaciones que necesitamos hacer uso de una funcion recursiva, en el siguiente ejemplo se ilustra como se crea una función recursiva.
+            </p>
+            <img src="https://josueso.github.io/imagenes/23.1.03.png" alt="Recursiva">
+        </section>
+
+        <script>
+
+            function loop (x) {
+                if (x >= 10)
+                    return;
+                //Más instrucciones    
+                loop(x + 1);
+            }
+
+            loop(0);
+
+
+        </script>
+        <footer>
+            Josué Sánchez Olvera 2017
+            <img src="https://josueso.github.io/imagenes/html.png" alt="HTML5" width="26">
+            <img src="https://josueso.github.io/imagenes/css.jpeg" alt="CSS3" width="20">
+        </footer>
+    </div>
+</body>
+</html>
