@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> DOM </title>
+    <link href="https://fonts.googleapis.com/css?family=Advent+Pro%7CBree+Serif%7CChathura%7CCinzel%7CExo+2%7CFjalla+One%7CMuli%7CNunito+Sans%7COpen+Sans+Condensed:300%7CUbuntu+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://josueso.github.io/estilos/estilo_entradas.css">
+</head>
+<body>
+    <div id="pagina">
+        <header>
+            <!--<h1 id="Titulo"> <a href="https://josueso.github.io/"> Tecnologías Web </a> </h1>-->
+            <a href="https://josueso.github.io/"> <img src="https://josueso.github.io/imagenes/TecWeb.png" alt="Logo" id="Logo"> </a>
+        </header>
+        <div id="header">
+            <ul class="nav">
+                <li> <a href="https://josueso.github.io/"> Inicio </a> </li>
+                <li> <a href=""> Cagorías </a> 
+                    <ul>
+                        <li> <a href=""> HTML </a> </li>
+                        <li> <a href=""> CSS </a> </li>
+                    </ul>
+                </li>
+                <li> <a href=""> Información </a> </li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <br>
+        <section id="arti">
+            <h4 id="NameA"> DOM </h4>
+            <p class="fecha">
+                Fecha: <i> 28 de Febrero de 2017 </i>
+            </p>
+            <p>
+                Es esencialmente una interfaz de plataforma que proporciona un conjunto estándar de objetos para representar documentos HTML, XHTML y XML, un modelo estándar sobre cómo pueden combinarse dichos objetos, y una interfaz estándar para acceder a ellos y manipularlos. A través del DOM, los programas pueden acceder y modificar el contenido, estructura y estilo de los documentos HTML y XML, que es para lo que se diseñó principalmente.
+            </p>
+            <p>
+                Existen tres formas para manipular facilmente el documento HTML
+            </p>
+            
+            <ol>
+                <li>
+                    Acceder a elementos del documento
+                    <ul>
+                        <li>
+                            document.getElementsByTagName('etiqueta')
+                        </li>
+                        <li>
+                            document.getElementsByClassName('.class')
+                        </li>
+                        <li>
+                            document.getElementById('#id')
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Modificar el contenido de un elemento
+                    <ul>
+                        <li>
+                            elemento.textContent = 'texto'
+                        </li>
+                        <li>
+                            elemento.innerHTML = 'código html'
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Agregar elementos (nodos) nuevos
+                    <br>Realizar 5 pasos
+                    <ol>
+                        <li>
+                            Crear elemento
+                            <br>createElement()
+                        </li>
+                        <li>
+                            Crear el contenido
+                            <br>createTextNode()
+                        </li>
+                        <li>
+                            Añadir el contenido al elemento
+                            <br>appendChild()
+                        </li>
+                        <li>
+                            Agregar atributos
+                            <br>setAttribute()
+                        </li>
+                        <li>
+                            Agregar elemento al documento
+                            <br>appendChild()
+                        </li>
+                    </ol>
+                </li>
+            </ol>
+        </section>
+        <footer>
+            Josué Sánchez Olvera 2017
+            <img src="https://josueso.github.io/imagenes/html.png" alt="HTML5" width="26">
+            <img src="https://josueso.github.io/imagenes/css.jpeg" alt="CSS3" width="20">
+        </footer>
+    </div>
+</body>
+</html>

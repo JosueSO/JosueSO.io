@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> jQuery </title>
+    <link href="https://fonts.googleapis.com/css?family=Advent+Pro%7CBree+Serif%7CChathura%7CCinzel%7CExo+2%7CFjalla+One%7CMuli%7CNunito+Sans%7COpen+Sans+Condensed:300%7CUbuntu+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://josueso.github.io/estilos/estilo_entradas.css">
+</head>
+<body>
+    <div id="pagina">
+        <header>
+            <!--<h1 id="Titulo"> <a href="https://josueso.github.io/"> Tecnologías Web </a> </h1>-->
+            <a href="https://josueso.github.io/"> <img src="https://josueso.github.io/imagenes/TecWeb.png" alt="Logo" id="Logo"> </a>
+        </header>
+        <div id="header">
+            <ul class="nav">
+                <li> <a href="https://josueso.github.io/"> Inicio </a> </li>
+                <li> <a href=""> Cagorías </a> 
+                    <ul>
+                        <li> <a href=""> HTML </a> </li>
+                        <li> <a href=""> CSS </a> </li>
+                    </ul>
+                </li>
+                <li> <a href=""> Información </a> </li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <br>
+        <section id="arti">
+            <h4 id="NameA"> jQuery </h4>
+            <p class="fecha">
+                Fecha: <i> 7 de Marzo de 2017 </i>
+            </p>
+            <p>
+                <i>"Write less, do more"</i>
+            </p>
+            <p>
+                jQuery es una biblioteca multiplataforma de JavaScript, creada inicialmente por John Resig en 2006, que permite simplificar la manera de interactuar con los documentos HTML, manipular el árbol DOM, manejar eventos, desarrollar animaciones y agregar interacción con la técnica AJAX a páginas web. 
+                <br>Simplifica:
+            </p>
+            <ul>
+                <li>La interacción con HTML</li>
+                <li>La manipulación del DOM</li>
+                <li>La manipulación de CSS</li>
+                <li>Manejo de eventos</li>
+                <li>Animaciones</li>
+                <li>Interacciones Ajax</li>
+                <li>Garantiza la compatibilidad entre navegadores</li>
+            </ul>
+            <p>
+                Todo se realiza a través de una función llama <span class="code">jQuery()</span>. Recibe como parámetro una expresión CSS y regresa un objeto jQuery
+            </p>
+            <div class="ttc">
+                <span class="code">
+                    var objeto = jQuery('selector_css')
+                </span>
+            </div>
+            <h3 class="subtittle"> Filtros básicos de selectores </h3>
+            <ul>
+                <li> :first &rarr; primer elemento </li>
+                <li> :last &rarr; último elemento </li>
+                <li> :even &rarr; posiciones par </li>
+                <li> :odd &rarr; posiciones impar </li>
+                <li> :eq(index) &rarr; igual al índice </li>
+                <li> :gt(index) &rarr; más allá de la posicion </li>
+                <li> :lt(index) &rarr; antes de una posición </li>
+                <li> :not(selector) &rarr; sin el selector </li>
+            </ul>
+        </section>
+        <footer>
+            Josué Sánchez Olvera 2017
+            <img src="https://josueso.github.io/imagenes/html.png" alt="HTML5" width="26">
+            <img src="https://josueso.github.io/imagenes/css.jpeg" alt="CSS3" width="20">
+        </footer>
+    </div>
+</body>
+</html>
